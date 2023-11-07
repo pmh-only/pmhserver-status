@@ -5,14 +5,17 @@ repo: pmhserver-status # The name of this repository
 sites:
   - name: pmhserver - Website
     url: https://shutupandtakemy.codes
+    maxResponseTime: 3000
   - name: pmhserver - Minecraft
     check: "tcp-ping"
     url: shutupandtakemy.codes
+    maxResponseTime: 1000
     port: 25565
   - name: Cloudflare
     check: "tcp-ping"
     url: jack.ns.cloudflare.com
     port: 53
+    maxResponseTime: 1000
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain

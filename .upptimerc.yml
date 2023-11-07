@@ -20,15 +20,21 @@ status-website:
   cname: status.shutupandtakemy.codes
   theme: night
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://shutupandtakemy.codes/mntserver.png
   name: pmhserver
   introTitle: "**pmhserver** is the open-infra homelab server for personal purpose."
   introMessage: You can view pmhserver's infrastructure files (Caddyfile, docker-compose.yml etc...) in [Github Repo](https://github.com/pmh-only/composes).
   navbar:
+    - title: Home
+      href: https://shutupandtakemy.codes
+    - title: Minecraft
+      href: https://mc.shutupandtakemy.codes
+    - title: Graph
+      href: https://shutupandtakemy.codes/#netgraph
+    - title: Monitor
+      href: https://grafana.shutupandtakemy.codes
     - title: Status
       href: /
-    - title: Composes
-      href: https://github.com/pmh-only/composes
 
 assignees:
   - pmh-only

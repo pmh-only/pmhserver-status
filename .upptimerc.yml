@@ -10,14 +10,12 @@ sites:
   - name: pmhserver - Minecraft
     check: "tcp-ping"
     url: shutupandtakemy.codes
-    maxResponseTime: 1000
     port: 25565
     icon: https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/favicon.ico
   - name: Cloudflare
     check: "tcp-ping"
     url: jack.ns.cloudflare.com
     port: 53
-    maxResponseTime: 1000
     icon: https://cloudflare.com/favicon.ico
 
 status-website:

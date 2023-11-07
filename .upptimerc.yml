@@ -6,16 +6,19 @@ sites:
   - name: pmhserver - Website
     url: https://shutupandtakemy.codes
     maxResponseTime: 3000
+    icon: https://shutupandtakemy.codes/mntserver.png
   - name: pmhserver - Minecraft
     check: "tcp-ping"
     url: shutupandtakemy.codes
     maxResponseTime: 1000
     port: 25565
+    icon: https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/favicon.ico
   - name: Cloudflare
     check: "tcp-ping"
     url: jack.ns.cloudflare.com
     port: 53
     maxResponseTime: 1000
+    icon: https://cloudflare.com/favicon.ico
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -23,6 +26,7 @@ status-website:
   cname: status.shutupandtakemy.codes
   theme: night
   # baseUrl: /your-repo-name
+  favicon: https://shutupandtakemy.codes/mntserver.png
   logoUrl: https://shutupandtakemy.codes/mntserver.png
   name: pmhserver
   introTitle: "**pmhserver** is the open-infra homelab server for personal purpose."

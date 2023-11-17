@@ -33,7 +33,9 @@
     "timeWeek": 315,
     "timeMonth": 293,
     "timeYear": 293,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-11-17": 0
+    }
   },
   {
     "name": "Cloudflare",

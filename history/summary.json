@@ -22,7 +22,7 @@
     "url": "shutupandtakemy.codes",
     "icon": "https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/favicon.ico",
     "slug": "pmhserver-minecraft",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -33,7 +33,9 @@
     "timeWeek": 177,
     "timeMonth": 237,
     "timeYear": 265,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-01-02": 0
+    }
   },
   {
     "name": "Cloudflare",

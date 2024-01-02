@@ -22,19 +22,19 @@
     "url": "shutupandtakemy.codes",
     "icon": "https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/favicon.ico",
     "slug": "pmhserver-minecraft",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 265,
-    "timeDay": 194,
-    "timeWeek": 177,
-    "timeMonth": 237,
-    "timeYear": 265,
+    "status": "up",
+    "uptime": "99.85%",
+    "uptimeDay": "91.81%",
+    "uptimeWeek": "98.83%",
+    "uptimeMonth": "99.73%",
+    "uptimeYear": "99.85%",
+    "time": 263,
+    "timeDay": 188,
+    "timeWeek": 178,
+    "timeMonth": 235,
+    "timeYear": 263,
     "dailyMinutesDown": {
-      "2024-01-02": 0
+      "2024-01-02": 118
     }
   },
   {
